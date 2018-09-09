@@ -1,0 +1,409 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": "sdh_alarm_dataId",
+          "id": "oan1l8wsh",
+          "name": "employment",
+          "type": "range",
+          "value": [
+            0,
+            16526
+          ],
+          "enlarged": false,
+          "plotType": "histogram",
+          "yAxis": null
+        },
+        {
+          "dataId": "pdh_alarm_dataId",
+          "id": "8shyeghmk",
+          "name": "Employment 2021",
+          "type": "range",
+          "value": [
+            2303,
+            140575
+          ],
+          "enlarged": false,
+          "plotType": "histogram",
+          "yAxis": null
+        }
+      ],
+      "layers": [
+        {
+          "id": "gsb9ez",
+          "type": "geojson",
+          "config": {
+            "dataId": "sdh_alarm_dataId",
+            "label": "CLUE blocks",
+            "color": [
+              18,
+              147,
+              154,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "hi-precision": false,
+              "stroked": true,
+              "filled": false,
+              "enable3d": false,
+              "wireframe": false
+            }
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "6d2sb1e",
+          "type": "geojson",
+          "config": {
+            "dataId": "pdh_alarm_dataId",
+            "label": "Floor Space Forecast",
+            "color": [
+              221,
+              178,
+              124,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "hi-precision": false,
+              "stroked": true,
+              "filled": false,
+              "enable3d": false,
+              "wireframe": false
+            }
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "bw3glln",
+          "type": "point",
+          "config": {
+            "dataId": "mobile_base_station_dataId",
+            "label": "Cafe Locations",
+            "color": [
+              30,
+              150,
+              190
+            ],
+            "columns": {
+              "lat": "ycoord",
+              "lng": "xcoord",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "hi-precision": false
+            }
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "l1ctm7n",
+          "type": "geojson",
+          "config": {
+            "dataId": "sdh_alarm_dataId",
+            "label": "Block By Employment",
+            "color": [
+              23,
+              184,
+              190
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "ColorBrewer YlOrRd-6",
+                "type": "sequential",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#ffffb2",
+                  "#fed976",
+                  "#feb24c",
+                  "#fd8d3c",
+                  "#f03b20",
+                  "#bd0026"
+                ],
+                "reversed": false
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "hi-precision": false,
+              "stroked": true,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            }
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "employment",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": {
+              "name": "employment",
+              "type": "integer"
+            },
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "wz9jzv8",
+          "type": "geojson",
+          "config": {
+            "dataId": "pdh_alarm_dataId",
+            "label": "Future Traffic",
+            "color": [
+              77,
+              193,
+              156,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "ColorBrewer PRGn-6",
+                "type": "diverging",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#762a83",
+                  "#af8dc3",
+                  "#e7d4e8",
+                  "#d9f0d3",
+                  "#7fbf7b",
+                  "#1b7837"
+                ],
+                "reversed": false
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "hi-precision": false,
+              "stroked": true,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            }
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Employment 2021",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "mobile_base_station_dataId": [
+              "column_0",
+              "xcoord",
+              "ycoord",
+              "Census year",
+              "Block ID"
+            ],
+            "pdh_alarm_dataId": [
+              "column_0",
+              "City of Melbourne Small Area",
+              "Broad Industry",
+              "Industry",
+              "Employment 2021"
+            ],
+            "sdh_alarm_dataId": [
+              "column_0",
+              "Census year",
+              "Block ID",
+              "CLUE small area",
+              "Accommodation"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": []
+    },
+    "mapState": {
+      "bearing": 24,
+      "dragRotate": true,
+      "latitude": -37.829747587857064,
+      "longitude": 144.9397511593802,
+      "pitch": 50,
+      "zoom": 12.227627656881818,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true
+      },
+      "mapStyles": {}
+    }
+  }
+}

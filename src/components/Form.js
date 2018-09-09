@@ -41,7 +41,7 @@ class Form extends React.Component {
           </div>
 
           <div className="inputs">
-            <div className="inputTitle">Rent range</div>
+            <div className="inputTitle">Rent range per week</div>
             <input type="text" placeholder="$500" name="min-range"/> to <input type="text" placeholder="$1000" name="max-range"/>
           </div>
 
@@ -52,7 +52,7 @@ class Form extends React.Component {
           </div>
 
           <div className="inputs">  
-            <a className="submit" href="http://www.google.com">Submit</a>
+            <a className="submit" href="http://localhost:8080">Submit</a>
           </div>
         </form>
       </div>

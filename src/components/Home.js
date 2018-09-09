@@ -13,7 +13,7 @@ class Home extends React.Component {
       <div>
         <div className='center'>
           <img src={logo} height='200' alt='logo'/>
-          <div className='title'>OzBusiness</div>
+          <div className='title'>OzBiz</div>
           <div className='tagLine animated fadeIn delay-2s'>Start your business</div>
           <Link to={'/start'}>
             <button type='button' className='getStartedButton'>
