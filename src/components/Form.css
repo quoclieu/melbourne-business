@@ -1,0 +1,79 @@
+form{
+    padding: 30px;
+}
+
+.form {
+    background-color: white;
+    height: 600px;
+    min-width: 700px;
+    text-align: left;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+}
+
+.formHeading {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    background-color: #1DBAD6;
+    padding: 40px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.inputTitle {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+select {
+    background:
+    linear-gradient(45deg, transparent 50%, black 50%),
+    linear-gradient(135deg, black 50%, transparent 50%);
+    background-position:
+        calc(100% - 21px) calc(1em + 2px),
+        calc(100% - 16px) calc(1em + 2px),
+        100% 0;
+    background-size:
+        5px 5px,
+        5px 5px,
+        2.5em 2.5em;
+    background-repeat: no-repeat;
+    line-height: 1.5em;
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border-radius: 0px;
+}
+
+select, input {
+    padding: 10px;
+    background-color: white;
+    border-width: 1px;
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: 1px solid #1DBAD6 !important;
+}
+
+input {
+    box-shadow: none;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.inputs {
+    margin: 30px;
+}
+
+.submit, .submit:hover{
+    border-radius: 25px;
+    background-color: #1DBAD6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}

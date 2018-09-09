@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url(assets/mb-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+
+}
+
+html {
+  /*background: black;  for browsers that don't support gradients */
+  /*background: linear-gradient(#000000, #414141);*/
+  min-height: 100%;
+}
