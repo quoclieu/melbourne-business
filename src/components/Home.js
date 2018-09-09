@@ -13,11 +13,11 @@ class Home extends React.Component {
       <div>
         <div className='center'>
           <img src={logo} height='200' alt='logo'/>
-          <div className='title'>Melbourne City Business</div>
+          <div className='title'>OzBusiness</div>
           <div className='tagLine animated fadeIn delay-2s'>Start your business</div>
           <Link to={'/start'}>
             <button type='button' className='getStartedButton'>
-              <i className ="fas fa-location-arrow"></i> Here
+              Here <i className="fas fa-map-marker-alt"></i>
             </button>
           </Link>
         </div>
@@ -28,7 +28,7 @@ class Home extends React.Component {
                 <h3>Mission</h3>
                 <hr/>
                 <div>
-                  Making commercial property searching accessible for anyone starting a business in Melbourne
+                  Making commercial property searching accessible for anyone starting a business anywhere
                 </div>
               </div>
               <div className='col-sm animated fadeIn delay2'>
