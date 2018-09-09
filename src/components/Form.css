@@ -4,10 +4,10 @@ form{
 
 .form {
     background-color: white;
-    height: 600px;
+    height: 650px;
     min-width: 700px;
     text-align: left;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 25px;
 }
 
@@ -18,10 +18,11 @@ form{
     background-color: #1DBAD6;
     padding: 40px;
     border-radius: 25px 25px 0px 0px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 .inputTitle {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 

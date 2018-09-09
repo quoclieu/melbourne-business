@@ -36,6 +36,11 @@ class Form extends React.Component {
           </div>
 
           <div className="inputs">
+            <div className="inputTitle">Location</div>
+            <input type="text" placeholder="Melbourne" name="location"/>
+          </div>
+
+          <div className="inputs">
             <div className="inputTitle">Rent range</div>
             <input type="text" placeholder="$500" name="min-range"/> to <input type="text" placeholder="$1000" name="max-range"/>
           </div>
